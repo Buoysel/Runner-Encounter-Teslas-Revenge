@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: 4e0a7fdc4d0fb4acbbb47a3497b8d814
+timeCreated: 1464225477
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Runner_0
+    21300002: Runner_4
+    21300004: Runner_5
+    21300006: Runner_1
+    21300008: Runner_2
+    21300010: Runner_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 3
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Runner_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 12
+        width: 294
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -144}
+        - {x: 3, y: -172}
+        - {x: 18, y: -186}
+        - {x: 100, y: -186}
+        - {x: 147, y: -82}
+        - {x: 147, y: -9}
+        - {x: 130, y: 48}
+        - {x: 113, y: 151}
+        - {x: 75, y: 182}
+        - {x: 64, y: 186}
+        - {x: -56, y: 186}
+        - {x: -86, y: 166}
+        - {x: -147, y: 118}
+        - {x: -147, y: 29}
+        - {x: -67, y: -55}
+        - {x: -12, y: -61}
+        - {x: -100, y: -149}
+        - {x: -97, y: -179}
+        - {x: -87, y: -186}
+        - {x: -29, y: -186}
+        - {x: -1, y: -168}
+        - {x: -5, y: -121}
+        - {x: 75, y: -48}
+      - - {x: -72, y: -49}
+        - {x: -71, y: -52}
+        - {x: -67, y: -52}
+        - {x: -65, y: -50}
+        - {x: -66, y: -47}
+        - {x: -70, y: -47}
+      - - {x: -96, y: 186}
+        - {x: -97, y: 185}
+        - {x: -96, y: 182}
+        - {x: -92, y: 182}
+        - {x: -90, y: 184}
+        - {x: -91, y: 186}
+    - name: Runner_4
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 57
+        width: 184
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89, y: 91}
+        - {x: 21, y: 117}
+        - {x: -52, y: 117}
+        - {x: -87, y: 85}
+        - {x: -92, y: 60}
+        - {x: -92, y: -17}
+        - {x: -90, y: -29}
+        - {x: -34, y: -85}
+        - {x: 13, y: -117}
+        - {x: 36, y: -117}
+        - {x: 63, y: -111}
+        - {x: 90, y: -91}
+        - {x: 92, y: -76}
+        - {x: 92, y: 69}
+      - - {x: -35, y: -94}
+        - {x: -33, y: -98}
+        - {x: -31, y: -98}
+        - {x: -28, y: -97}
+        - {x: -28, y: -89}
+        - {x: -31, y: -89}
+        - {x: -35, y: -92}
+    - name: Runner_5
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 59
+        width: 188
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: -117}
+        - {x: 69, y: -89}
+        - {x: 94, y: -15}
+        - {x: 94, y: 78}
+        - {x: 88, y: 109}
+        - {x: 69, y: 117}
+        - {x: -21, y: 117}
+        - {x: -94, y: 46}
+        - {x: -94, y: -24}
+        - {x: -79, y: -91}
+        - {x: -35, y: -117}
+        - {x: -7, y: -117}
+        - {x: -7, y: -114}
+        - {x: -9, y: -112}
+        - {x: 26, y: -117}
+    - name: Runner_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 12
+        width: 294
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -146}
+        - {x: 4, y: -175}
+        - {x: 22, y: -186}
+        - {x: 94, y: -186}
+        - {x: 147, y: -76}
+        - {x: 147, y: 28}
+        - {x: 138, y: 68}
+        - {x: 92, y: 165}
+        - {x: -45, y: 165}
+        - {x: -49, y: 164}
+        - {x: -55, y: 162}
+        - {x: -62, y: 159}
+        - {x: -70, y: 154}
+        - {x: -102, y: 149}
+        - {x: -147, y: 90}
+        - {x: -147, y: 14}
+        - {x: -91, y: -45}
+        - {x: -35, y: -106}
+        - {x: -96, y: -147}
+        - {x: -100, y: -175}
+        - {x: -84, y: -186}
+        - {x: -27, y: -186}
+        - {x: -6, y: -165}
+        - {x: 47, y: -79}
+        - {x: 110, y: -61}
+    - name: Runner_2
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 12
+        width: 294
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -151}
+        - {x: 11, y: -186}
+        - {x: 75, y: -186}
+        - {x: 90, y: -175}
+        - {x: 97, y: -168}
+        - {x: 98, y: -155}
+        - {x: 98, y: -132}
+        - {x: 96, y: -127}
+        - {x: 147, y: -79}
+        - {x: 147, y: -33}
+        - {x: 129, y: 120}
+        - {x: 91, y: 127}
+        - {x: -96, y: 127}
+        - {x: -147, y: 94}
+        - {x: -147, y: -11}
+        - {x: -133, y: -52}
+        - {x: -61, y: -79}
+        - {x: -101, y: -153}
+        - {x: -94, y: -185}
+        - {x: -90, y: -186}
+        - {x: -31, y: -186}
+        - {x: -10, y: -181}
+        - {x: 0, y: -130}
+        - {x: 87, y: -69}
+    - name: Runner_3
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 12
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 155, y: -131}
+        - {x: 156, y: -128}
+        - {x: 156, y: -63}
+        - {x: 141, y: -37}
+        - {x: 91, y: -44}
+        - {x: 44, y: 79}
+        - {x: 122, y: -35}
+        - {x: 155, y: -25}
+        - {x: 156, y: -25}
+        - {x: 156, y: 49}
+        - {x: 146, y: 79}
+        - {x: 101, y: 62}
+        - {x: 97, y: 59}
+        - {x: 65, y: 112}
+        - {x: -25, y: 112}
+        - {x: -82, y: 101}
+        - {x: -156, y: 51}
+        - {x: -156, y: -115}
+        - {x: -88, y: -184}
+        - {x: -86, y: -185}
+        - {x: -30, y: -185}
+        - {x: 42, y: -128}
+        - {x: 87, y: -76}
+        - {x: 123, y: -138}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

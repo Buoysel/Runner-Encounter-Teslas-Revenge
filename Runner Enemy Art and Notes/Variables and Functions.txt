@@ -1,0 +1,120 @@
+using Unity.Collections.Generic
+using UnityEngine.UI
+
+randNum
+
+sentenceList<string>
+
+currentButton
+
+underscoreLoc
+
+answerList<string>
+
+usedSentence<int>
+
+answerVal
+
+playerHPList<gameObject>
+
+enemyHPList<gameObject>
+
+buttonList<gameObject>
+
+
+Awake()
+    ListSentences()
+    SetHP()
+    ListButtons()
+
+Start()
+    DisplaySentence()
+
+No need for Update()? (Maybe comment it just in case)
+
+ListSentences()
+    Add sentence to sentenceList<string>
+
+
+ListAnswers()
+    answerList is a new List (I'm hoping that will clear it each time)
+    Switch (randomNum)
+        case 0:
+            Add "and" to answerList;
+            Add "," to answerList;
+            break;
+
+        case 1:
+            Add ";" to answerList;
+            Add "or" to answerList;
+            break;
+
+        case 2:
+            Add "so" to answerList;
+            break;
+
+    And so on to match the number of Sentences.
+    Sentences and their corresponding answers should have the
+    same index value.
+
+SetHP()
+    Add player HP gameObjects to playerHPList<gameObject>
+    Add enemy HP gameObjects to enemyHPList<gameObject>
+
+ListButtons()
+    Add all items with the tag "wordButton" to buttonList<gameObject>
+
+DisplaySentence()
+    randNum is a random number between 0 and the length of the sentenceList.
+
+    if randNum is not in usedSentence:
+        text gameObject text is set to sentencList[randNum]
+        randNum is added to usedSentences
+        ListAnswers()
+    else
+        Recur and DisplaySentence()
+
+    underscoreLoc is equal to the index where the "___" is found in the current
+    sentence.
+
+EvaluateAnswer()
+    This is called by the buttons' script.
+    If the current answer is in AnswerList
+        CorrectAnswer()
+    else
+        WrongAnswer()
+
+CorrectAnswer()
+    Delete enemyHPList[0]
+    Color enemyHPList[0] red? (Never did that...)
+    For every button in buttonList
+        buttonList.Button.Interactable = true
+        buttonList Image Color Alpha is 100% (255)
+
+    If enemyHPList is empty
+        UI text is "Victory!"
+        StartCoroutine(Delay())
+        Quit Editor game
+        //Some way to exit game in TR
+    else
+        cut "___" from the sentence
+        replace with the button's value at underscoreLoc
+        StartCoroutine(Delay())
+        DisplaySentence()
+
+WrongAnswer()
+    Delete playerHPList[0]
+    Color playerHPList[0] red
+    this.Button.Interactable = false
+    this button's Image Color Alpha is 50%(127)
+
+    if playerHPList is empty
+        UI text is "You've been defeated!"
+        StartCoroutine(Delay)
+        Quit Editor Game
+        //Some way to exit game in TR
+    else
+        DisplaySentence()
+
+Delay()
+    yield return new WaitForSeconds(5)

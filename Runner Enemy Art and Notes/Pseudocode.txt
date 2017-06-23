@@ -1,0 +1,51 @@
+1. Sentence appears on the screen
+    A run-on sentence is randomly picked from a list of sentences
+    and has a underscore "___" in the middle. The underscore will
+    be replaced by a punctuation mark or conjunction chosen by
+    the user after they click a button. The string index[i] of "___"
+    is stored in a variable and is used as the index where text will be
+    replaced.
+
+    --Sentences know the correct punctuation marks/conjunctions
+        Each sentences has its own list of correct answers that is
+        created at the time a sentence is called. (Switch statement?)
+
+    --After a sentence is chosen, it will be stored in a variable for the current
+    sentence?
+
+2. Player clicks a button
+    A button will call a function to replace the underscore in the run-on
+    sentence. The value returned from the function corresponds to the name/shape/
+    word on the button.
+
+3. Determine if word is correct
+    After the function to replace the underscore is called, a new function to check
+    if the correct button was clicked. This will search the current sentence's
+    list of answers. If the answer exists in that list, the player is correct; if not,
+    the player is wrong.
+
+4. Player is Wrong
+    The player's health is a list of gameObject with the HP icons. If the player
+    was wrong, delete the [0]th item from the player's health list.
+    Also, the button clicked is no longer interactable for that sentence.
+    Also, the Alpha for that button's Image component is reduced to 50% (127-128).
+
+5. Player is correct
+    The Enemy also has a list of gameObjects with HP gameObjects for their health.
+    If the player was correct, delete the [0]th item from the Enemy's health list.
+    Call a function to display a new random sentence:
+    --The previous sentence is placed in a list of UsedSentences.
+    --If a random sentence is found in UsedSentence, a new random sentence
+      is called until a new one appears (recur?).
+    All buttons are stored in their own list:
+    --Go through the list and check to see if a button is interactable. If not
+      restore the "interactable" checkbox.
+    --Also, set the Alpha back to 100% (255) if it is not.
+
+6. Ending the game:
+    PlayerHP is empty:
+        --Text changes to a big YOU LOSE.
+        --Game exits after a few seconds.
+    EnemyHP list is empty:
+        --Text changes to a big YOU WIN!
+        --Game exits after a few seconds.
