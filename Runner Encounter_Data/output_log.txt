@@ -7,32 +7,24 @@ Direct3D:
     VRAM:     3040 MB
     Driver:   22.21.13.8205
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.175 seconds
-Platform assembly: C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Allan\Desktop\Runner Encounter - Tesla's Revenge\Runner Encounter_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.041 seconds
+Platform assembly: C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Allan\Documents\Portfolio Files\Runner-Encounter-Teslas-Revenge\Runner Encounter_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.569578 ms
+UnloadTime: 1.679409 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 51d8 -> priority: 1 
-  Thread -> id: 3660 -> priority: 1 
-ALMOST ALL SOURCES HAVE SOME DEGREE OF BIAS SOME SOURCES WILL BE FACT SOME WILL BE OPINION.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ALMOST ALL SOURCES HAVE SOME DEGREE OF BIAS. SOME SOURCES WILL BE FACT, AND SOME WILL BE OPINION.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+  Thread -> id: 4718 -> priority: 1 
+  Thread -> id: 4154 -> priority: 1 
