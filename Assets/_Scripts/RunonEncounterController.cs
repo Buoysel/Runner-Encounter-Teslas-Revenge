@@ -2,26 +2,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 //using UnityEditor;
 
 public class RunonEncounterController : MonoBehaviour {
 
-	public int randCat;							//Randomly select a category.
-	public int randSen;							//Randomly select a sentence WITHIN the category.
-	public string currentSentence;				//Selected sentence for reseting.
-	public int currentPosition = 0;				//Position of the loop
-	public int lastPosition;		
+    public int randCat;                         //Randomly select a category.
+    public int randSen;                         //Randomly select a sentence WITHIN the category.
+    public string currentSentence;              //Selected sentence for reseting.
+    public int currentPosition = 0;             //Position of the loop
+    public int lastPosition;
 
-	private Text sentence;						//UI Sentence panel
-	private Text hint;							//UI Hint Panel
-	private RunonSentencesScript sentenceScript; //Script for the sentences.
-	private Health healthScript;				 //Script for the player and Runner's health.
-	public Animator anim;						 //Runner's animator. Health Script access this, too.
+    private Text sentence;                      //UI Sentence panel
+    private Text hint;                          //UI Hint Panel
+    private RunonSentencesScript sentenceScript; //Script for the sentences.
+    private Health healthScript;                 //Script for the player and Runner's health.
+    public Animator anim;                        //Runner's animator. Health Script access this, too.
 
-	public List<string> usedRunon = new List<string> ();	//Hold any used runons.
+    public List<string> usedRunon = new List<string>(); //Hold any used runons.
 
-	public bool allowInput = true;
-										
+    public bool allowInput = true;
+    private bool gameFinished = false;
+    	
 	void Start () 
 	{
 		//Get any scripts and components.
@@ -48,6 +50,14 @@ public class RunonEncounterController : MonoBehaviour {
 			if (Input.GetKeyDown (KeyCode.D) || Input.GetKeyDown (KeyCode.RightArrow)) 
 				Advance ();	
 		}
+
+        if (gameFinished)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            else if (Input.GetKeyDown(KeyCode.E))
+                Application.Quit();
+        }
 	}
 
 	void DisplaySentence()
@@ -276,8 +286,11 @@ public class RunonEncounterController : MonoBehaviour {
 		}
 		if (healthScript.eHealthList.Count == 0 || hpCounter == 3) 
 		{
-			//End the game.
-			//EditorApplication.isPlaying = false;
+            //End the game.
+            hint.text = "Press 'R' to restart the game, or press 'E' to end the game.";
+            allowInput = false;
+            gameFinished = true;
+            yield break;
 		}
 
 

@@ -12,11 +12,14 @@ to fix, either by inserting a comma, period, or an "And".
       * If the player is correct, the Runner will show a damage animation. The
       Runner will lose HP will the player gains HP.
       * If the player is incorrect, the Runner will damage the player, and the
-      player will lose HP.
+      player will lose HP. If the player is on their last health, a hint will
+      appear under the Runner.
 
 4. The 'Erase' button will remove a period, comma, or 'And' behind it.
 
 5. The 'Reset' button will restore the Run-on to its previous state.
 
-
-If the player is on their last health, a hint will appear under the Runner.
+6. If the enemy is out of health, the player loses, and it's game over. If the
+   Runner is out of health, the player wins. In both cases, the hint text will
+   tell the player to either press 'E' to exit the game, or press 'R' to restart
+   the game.

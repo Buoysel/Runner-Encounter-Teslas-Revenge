@@ -35,8 +35,10 @@ public class Health : MonoBehaviour {
 		message.text = "Ouch!";
 		healthOrb.SetActive(false);
 
-		if (wrong == 3)
-			message.text = "Game Over";
+        if (wrong == 3)
+        {
+            message.text = "Game Over";
+        }
 
 		wrong++;
 	}
